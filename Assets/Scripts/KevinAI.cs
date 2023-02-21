@@ -15,7 +15,7 @@ public class KevinAI : MonoBehaviour
     void Start()
     {
         // Temporarily sets stalking mode to true so Kevin follows player
-        isStalking = true;
+        //isStalking = true;
         kevinAgent = GetComponent<NavMeshAgent>();
     }
 
