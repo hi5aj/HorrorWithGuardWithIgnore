@@ -5,8 +5,9 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     //public GameObject Hatchet;
-    public bool CanAttack = true;
+    public bool CanAttack;
     public float AttackCooldown = 0.01f;
+    public float attackCooldownNormal = 3f;
     //public AudioClip hatchetAttackSound;
     Animator anim;
     AudioSource ac;
@@ -19,39 +20,52 @@ public class WeaponController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        CanAttack = true;
         anim = GetComponent<Animator>();
         //ac = GetComponent<AudioSource>();
         collider.enabled = false;
     }
 
     // Update is called once per frame
-    void Update()
+    void  FixedUpdate()
     {
-        if(Input.GetMouseButtonDown(0))
+
+        if (Input.GetButtonDown("Fire1"))
         {
-            if(CanAttack)
+            if (CanAttack == true)
             {
-                 HatchetAttack();
+                HatchetAttack();
             }
-        }
-        else if (Input.GetMouseButtonUp(0))
-        {
+            
         }
         if (CanAttack == false)
         {
-            reloadText.SetActive(true);
-            if(Input.GetKeyDown(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.R))
             {
                 StartCoroutine(Reload());
             }
+            if (Input.GetMouseButton(1))
+            {
+                StartCoroutine(ReturnToIdle());
+            }
         }
+        /*if (CanAttack == false)
+        {
+            //reloadText.SetActive(true);
+            StartCoroutine(ReturnToIdle());
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                StartCoroutine(Reload());
+            }
+
+        }*/
     }
     
     public void HatchetAttack()
     {
+        CanAttack = false;
         collider.enabled = true;
         StartCoroutine(ResetAttackCooldown());
-        CanAttack = false;
         anim.SetTrigger("attacking");
         //ac.PlayOneShot(hatchetAttackSound);
         //StartCoroutine(ResetAttackCooldown());
@@ -62,13 +76,21 @@ public class WeaponController : MonoBehaviour
         anim.SetTrigger("reloading");
         yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
         CanAttack = true;
-        reloadText.SetActive(false);
+        //reloadText.SetActive(false);
     }
 
     IEnumerator ResetAttackCooldown()
     {
+
         yield return new WaitForSeconds(AttackCooldown);
         collider.enabled = false;
+    }
+
+    IEnumerator ReturnToIdle()
+    {
+        anim.SetTrigger("returnToIdle");
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
+        CanAttack = true;
     }
 
     void playPop()
