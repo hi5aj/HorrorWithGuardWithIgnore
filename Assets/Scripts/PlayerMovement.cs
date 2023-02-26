@@ -17,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    public AudioSource audioSource;
+    public AudioClip footstepsNormal;
+    public AudioClip footstepsFlesh;
+
 
     // Update is called once per frame
     void FixedUpdate()
@@ -43,9 +47,17 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        if(Input.GetKeyDown("escape"))
+        /*if(Input.GetKeyDown("escape"))
         {
             Application.Quit();
+        }*/
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Player is dead");
         }
     }
 }

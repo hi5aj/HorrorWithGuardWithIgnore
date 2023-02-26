@@ -16,6 +16,8 @@ public class WeaponController : MonoBehaviour
     public AudioSource audiosource;
     public AudioClip popSound;
     public AudioClip reloadSound;
+    public AudioClip swingSound;
+    CoreAI ai;
 
     // Start is called before the first frame update
     void Start()
@@ -103,11 +105,17 @@ public class WeaponController : MonoBehaviour
         audiosource.PlayOneShot(reloadSound);
     }
 
+    void playSwing()
+    {
+        audiosource.PlayOneShot(swingSound);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Breakable")
         {
             Debug.Log("Breaking object");
+            ai._AIState = CoreAI.AIState.Angry;
             Destroy(other.gameObject);
         }
     }

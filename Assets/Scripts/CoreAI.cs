@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class CoreAI : MonoBehaviour
 {
-    private enum AIState
+    public enum AIState
     {
         Passive,
         Hostile,
@@ -14,7 +14,7 @@ public class CoreAI : MonoBehaviour
     }
 
     [SerializeField]
-    private AIState _AIState;
+    public AIState _AIState;
 
     public LayerMask targetMask;
     public LayerMask obstructionMask;
@@ -27,6 +27,7 @@ public class CoreAI : MonoBehaviour
     public bool alwaysMoving;
     public bool fleeFromPlayer;
     public bool isStunned;
+    public bool isAngry;
 
     public float stunTime = 5;
     public float angryTime = 10;
@@ -59,6 +60,12 @@ public class CoreAI : MonoBehaviour
 
     private NavMeshAgent navMeshAgent;
 
+    public Animator anim;
+    public AudioSource audioSource;
+    public AudioClip breathing;
+    public AudioClip scream;
+    public AudioClip footsteps;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +73,8 @@ public class CoreAI : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player");
         StartCoroutine(CheckForPlayer());
+        audioSource.clip = breathing;
+        audioSource.Play();
     }
 
     // Update is called once per frame
@@ -109,6 +118,7 @@ public class CoreAI : MonoBehaviour
                 break;
 
             case AIState.Stunned:
+                audioSource.PlayOneShot(scream);
                 navMeshAgent.speed = 0;
                 canSeePlayer = false;
                 isChasingPlayer = false;
@@ -117,8 +127,13 @@ public class CoreAI : MonoBehaviour
                 break;
 
             case AIState.Angry:
+                isAngry = true;
+                audioSource.PlayOneShot(scream);
+                AngryChase();
                 StartCoroutine(AngryTimer());
-                ChasePlayer();
+                _AIState = AIState.Passive;
+                FieldOfViewCheck();
+                isAngry = false;
                 break; 
 
 
@@ -295,6 +310,15 @@ public class CoreAI : MonoBehaviour
         }
         FieldOfViewCheck();
     }
+
+    private void AngryChase()
+    {
+        if (isStunned == false)
+        {
+            isChasingPlayer = true;
+            navMeshAgent.destination = player.transform.position;
+        }
+    }
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.tag == "Hatchet")
@@ -302,6 +326,15 @@ public class CoreAI : MonoBehaviour
             Debug.Log("Trying to stun enemy");
             isStunned = true;
             _AIState = AIState.Stunned;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log("Killing player (enemy script)");
+            // Kill code and enemy swipe animation
         }
     }
 
@@ -314,7 +347,8 @@ public class CoreAI : MonoBehaviour
 
     IEnumerator AngryTimer()
     {
-        navMeshAgent.speed = 20;
+        Debug.Log("Enemy should be angry");
         yield return new WaitForSeconds(angryTime);
+        Debug.Log("Angry timer up");
     }
 }
