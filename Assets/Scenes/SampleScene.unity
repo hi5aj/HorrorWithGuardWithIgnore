@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1558519}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 1 Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 19038482}
   - component: {fileID: 19038481}
   - component: {fileID: 19038480}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 22773767}
   - component: {fileID: 22773766}
   - component: {fileID: 22773765}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 30802365}
   - component: {fileID: 30802364}
   - component: {fileID: 30802363}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 38815334}
   - component: {fileID: 38815333}
   - component: {fileID: 38815332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh210520
+  m_Name: pb_Mesh151462
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 82227754}
   - component: {fileID: 82227753}
   - component: {fileID: 82227752}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,7 +1019,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh210596
+  m_Name: pb_Mesh151538
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 110603589}
   - component: {fileID: 110603588}
   - component: {fileID: 110603587}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 124235545}
   - component: {fileID: 124235544}
   - component: {fileID: 124235543}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1475,7 +1475,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh212316
+  m_Name: pb_Mesh153258
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1645,7 +1645,7 @@ GameObject:
   - component: {fileID: 134537057}
   - component: {fileID: 134537056}
   - component: {fileID: 134537055}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1742,7 +1742,7 @@ GameObject:
   - component: {fileID: 142325524}
   - component: {fileID: 142325523}
   - component: {fileID: 142325522}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1839,7 +1839,7 @@ GameObject:
   - component: {fileID: 145874830}
   - component: {fileID: 145874829}
   - component: {fileID: 145874828}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2034,7 +2034,7 @@ GameObject:
   - component: {fileID: 155442614}
   - component: {fileID: 155442613}
   - component: {fileID: 155442612}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2226,7 +2226,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211716
+  m_Name: pb_Mesh152658
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2396,7 +2396,7 @@ GameObject:
   - component: {fileID: 183769469}
   - component: {fileID: 183769468}
   - component: {fileID: 183769467}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2493,7 +2493,7 @@ GameObject:
   - component: {fileID: 184453852}
   - component: {fileID: 184453851}
   - component: {fileID: 184453850}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2590,7 +2590,7 @@ GameObject:
   - component: {fileID: 191840133}
   - component: {fileID: 191840132}
   - component: {fileID: 191840131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2687,7 +2687,7 @@ GameObject:
   - component: {fileID: 195533573}
   - component: {fileID: 195533572}
   - component: {fileID: 195533571}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2778,7 +2778,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh210270
+  m_Name: pb_Mesh151212
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3084,7 +3084,7 @@ GameObject:
   - component: {fileID: 206713449}
   - component: {fileID: 206713448}
   - component: {fileID: 206713451}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3399,7 +3399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 222932985}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3443,7 +3443,7 @@ GameObject:
   - component: {fileID: 228230204}
   - component: {fileID: 228230203}
   - component: {fileID: 228230202}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3540,7 +3540,7 @@ GameObject:
   - component: {fileID: 231064466}
   - component: {fileID: 231064465}
   - component: {fileID: 231064464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3637,7 +3637,7 @@ GameObject:
   - component: {fileID: 235858018}
   - component: {fileID: 235858017}
   - component: {fileID: 235858016}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3734,7 +3734,7 @@ GameObject:
   - component: {fileID: 241687034}
   - component: {fileID: 241687033}
   - component: {fileID: 241687032}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3831,7 +3831,7 @@ GameObject:
   - component: {fileID: 249022660}
   - component: {fileID: 249022659}
   - component: {fileID: 249022658}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3928,7 +3928,7 @@ GameObject:
   - component: {fileID: 254231691}
   - component: {fileID: 254231690}
   - component: {fileID: 254231689}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4026,7 +4026,7 @@ GameObject:
   - component: {fileID: 255764879}
   - component: {fileID: 255764878}
   - component: {fileID: 255764877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall Test
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -4135,7 +4135,7 @@ GameObject:
   - component: {fileID: 272891808}
   - component: {fileID: 272891807}
   - component: {fileID: 272891806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4347,7 +4347,7 @@ GameObject:
   - component: {fileID: 281328091}
   - component: {fileID: 281328090}
   - component: {fileID: 281328089}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4444,7 +4444,7 @@ GameObject:
   - component: {fileID: 284348441}
   - component: {fileID: 284348440}
   - component: {fileID: 284348439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4541,7 +4541,7 @@ GameObject:
   - component: {fileID: 289836234}
   - component: {fileID: 289836233}
   - component: {fileID: 289836232}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4632,7 +4632,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211330
+  m_Name: pb_Mesh152272
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4870,7 +4870,7 @@ GameObject:
   - component: {fileID: 316546051}
   - component: {fileID: 316546050}
   - component: {fileID: 316546049}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4964,7 +4964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 320413024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5031,7 +5031,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh212794
+  m_Name: pb_Mesh153736
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5201,7 +5201,7 @@ GameObject:
   - component: {fileID: 334339398}
   - component: {fileID: 334339397}
   - component: {fileID: 334339396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5298,7 +5298,7 @@ GameObject:
   - component: {fileID: 336326610}
   - component: {fileID: 336326609}
   - component: {fileID: 336326608}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5395,7 +5395,7 @@ GameObject:
   - component: {fileID: 343416335}
   - component: {fileID: 343416334}
   - component: {fileID: 343416333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5493,7 +5493,7 @@ GameObject:
   - component: {fileID: 362827511}
   - component: {fileID: 362827510}
   - component: {fileID: 362827513}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5997,7 +5997,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211602
+  m_Name: pb_Mesh152544
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6167,7 +6167,7 @@ GameObject:
   - component: {fileID: 373315842}
   - component: {fileID: 373315841}
   - component: {fileID: 373315840}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6264,7 +6264,7 @@ GameObject:
   - component: {fileID: 375992039}
   - component: {fileID: 375992038}
   - component: {fileID: 375992037}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6362,7 +6362,7 @@ GameObject:
   - component: {fileID: 380869297}
   - component: {fileID: 380869296}
   - component: {fileID: 380869299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6676,7 +6676,7 @@ GameObject:
   - component: {fileID: 386852990}
   - component: {fileID: 386852989}
   - component: {fileID: 386852988}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6773,7 +6773,7 @@ GameObject:
   - component: {fileID: 393573908}
   - component: {fileID: 393573907}
   - component: {fileID: 393573906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6870,7 +6870,7 @@ GameObject:
   - component: {fileID: 395965201}
   - component: {fileID: 395965200}
   - component: {fileID: 395965199}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6967,7 +6967,7 @@ GameObject:
   - component: {fileID: 423706624}
   - component: {fileID: 423706623}
   - component: {fileID: 423706622}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7064,7 +7064,7 @@ GameObject:
   - component: {fileID: 435605878}
   - component: {fileID: 435605877}
   - component: {fileID: 435605876}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7158,7 +7158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 461888831}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7204,7 +7204,7 @@ GameObject:
   - component: {fileID: 469690695}
   - component: {fileID: 469690694}
   - component: {fileID: 469690693}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7302,7 +7302,7 @@ GameObject:
   - component: {fileID: 475971456}
   - component: {fileID: 475971455}
   - component: {fileID: 475971458}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7617,7 +7617,7 @@ GameObject:
   - component: {fileID: 476226856}
   - component: {fileID: 476226855}
   - component: {fileID: 476226854}
-  - component: {fileID: 476226853}
+  - component: {fileID: 476226859}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -7625,22 +7625,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &476226853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476226852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f4344673473d144cbed776f1ea94a02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  kevinDest: {fileID: 959759468}
-  kevinEnemy: {fileID: 0}
-  isStalking: 0
-  cooldown: 3
 --- !u!195 &476226854
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7742,6 +7726,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &476226859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476226852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3a804214c0be64ab15ad2104dc8160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _AIState: 0
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 512
+  obstructionMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  canSeePlayer: 0
+  isChasingPlayer: 0
+  IAmWaiting: 0
+  randomWaitTime: 0
+  randomWander: 0
+  alwaysMoving: 0
+  fleeFromPlayer: 0
+  isStunned: 0
+  stunTime: 5
+  angryTime: 10
+  wait_time: 1
+  speed: 5
+  walkRadius: 50
+  FoVRadius: 15
+  FoVAngle: 120
+  proximityRadius: 5
+  proximityAngle: 360
+  waypoints: []
+  player: {fileID: 0}
+  enemyColor: {fileID: 0}
 --- !u!1 &476940449
 GameObject:
   m_ObjectHideFlags: 0
@@ -7754,7 +7777,7 @@ GameObject:
   - component: {fileID: 476940453}
   - component: {fileID: 476940452}
   - component: {fileID: 476940451}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7851,7 +7874,7 @@ GameObject:
   - component: {fileID: 485933811}
   - component: {fileID: 485933810}
   - component: {fileID: 485933809}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8046,7 +8069,7 @@ GameObject:
   - component: {fileID: 490588037}
   - component: {fileID: 490588036}
   - component: {fileID: 490588035}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8143,7 +8166,7 @@ GameObject:
   - component: {fileID: 502042462}
   - component: {fileID: 502042461}
   - component: {fileID: 502042460}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8240,7 +8263,7 @@ GameObject:
   - component: {fileID: 512276608}
   - component: {fileID: 512276607}
   - component: {fileID: 512276606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8337,7 +8360,7 @@ GameObject:
   - component: {fileID: 512526716}
   - component: {fileID: 512526715}
   - component: {fileID: 512526714}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8434,7 +8457,7 @@ GameObject:
   - component: {fileID: 528814623}
   - component: {fileID: 528814622}
   - component: {fileID: 528814621}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8531,7 +8554,7 @@ GameObject:
   - component: {fileID: 542373440}
   - component: {fileID: 542373439}
   - component: {fileID: 542373438}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8629,7 +8652,7 @@ GameObject:
   - component: {fileID: 545656650}
   - component: {fileID: 545656649}
   - component: {fileID: 545656652}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8943,7 +8966,7 @@ GameObject:
   - component: {fileID: 557737280}
   - component: {fileID: 557737279}
   - component: {fileID: 557737278}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9040,7 +9063,7 @@ GameObject:
   - component: {fileID: 564205782}
   - component: {fileID: 564205781}
   - component: {fileID: 564205780}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9137,7 +9160,7 @@ GameObject:
   - component: {fileID: 570852190}
   - component: {fileID: 570852189}
   - component: {fileID: 570852188}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9234,7 +9257,7 @@ GameObject:
   - component: {fileID: 571154986}
   - component: {fileID: 571154985}
   - component: {fileID: 571154984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9331,7 +9354,7 @@ GameObject:
   - component: {fileID: 572794218}
   - component: {fileID: 572794217}
   - component: {fileID: 572794216}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9422,7 +9445,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211276
+  m_Name: pb_Mesh152218
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9592,7 +9615,7 @@ GameObject:
   - component: {fileID: 581372101}
   - component: {fileID: 581372100}
   - component: {fileID: 581372099}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9823,7 +9846,7 @@ GameObject:
   - component: {fileID: 596341079}
   - component: {fileID: 596341078}
   - component: {fileID: 596341077}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9920,7 +9943,7 @@ GameObject:
   - component: {fileID: 596697916}
   - component: {fileID: 596697915}
   - component: {fileID: 596697914}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10017,7 +10040,7 @@ GameObject:
   - component: {fileID: 598362849}
   - component: {fileID: 598362848}
   - component: {fileID: 598362847}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10114,7 +10137,7 @@ GameObject:
   - component: {fileID: 617200700}
   - component: {fileID: 617200699}
   - component: {fileID: 617200698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10309,7 +10332,7 @@ GameObject:
   - component: {fileID: 629840579}
   - component: {fileID: 629840578}
   - component: {fileID: 629840577}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10406,7 +10429,7 @@ GameObject:
   - component: {fileID: 633942726}
   - component: {fileID: 633942725}
   - component: {fileID: 633942724}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10503,7 +10526,7 @@ GameObject:
   - component: {fileID: 637271993}
   - component: {fileID: 637271992}
   - component: {fileID: 637271991}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10594,7 +10617,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211288
+  m_Name: pb_Mesh152230
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10764,7 +10787,7 @@ GameObject:
   - component: {fileID: 643086454}
   - component: {fileID: 643086453}
   - component: {fileID: 643086452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10861,7 +10884,7 @@ GameObject:
   - component: {fileID: 643732598}
   - component: {fileID: 643732597}
   - component: {fileID: 643732596}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10958,7 +10981,7 @@ GameObject:
   - component: {fileID: 645607932}
   - component: {fileID: 645607931}
   - component: {fileID: 645607930}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11055,7 +11078,7 @@ GameObject:
   - component: {fileID: 646759191}
   - component: {fileID: 646759190}
   - component: {fileID: 646759189}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11250,7 +11273,7 @@ GameObject:
   - component: {fileID: 660258366}
   - component: {fileID: 660258365}
   - component: {fileID: 660258364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11347,7 +11370,7 @@ GameObject:
   - component: {fileID: 664053878}
   - component: {fileID: 664053877}
   - component: {fileID: 664053876}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11444,7 +11467,7 @@ GameObject:
   - component: {fileID: 676346590}
   - component: {fileID: 676346589}
   - component: {fileID: 676346588}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11541,7 +11564,7 @@ GameObject:
   - component: {fileID: 683172905}
   - component: {fileID: 683172904}
   - component: {fileID: 683172903}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11638,7 +11661,7 @@ GameObject:
   - component: {fileID: 687392137}
   - component: {fileID: 687392136}
   - component: {fileID: 687392135}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11735,7 +11758,7 @@ GameObject:
   - component: {fileID: 693345258}
   - component: {fileID: 693345257}
   - component: {fileID: 693345256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11926,7 +11949,7 @@ GameObject:
   - component: {fileID: 708456081}
   - component: {fileID: 708456080}
   - component: {fileID: 708456079}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12023,7 +12046,7 @@ GameObject:
   - component: {fileID: 711205435}
   - component: {fileID: 711205434}
   - component: {fileID: 711205433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12120,7 +12143,7 @@ GameObject:
   - component: {fileID: 713495127}
   - component: {fileID: 713495126}
   - component: {fileID: 713495125}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12214,7 +12237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 718530869}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12258,7 +12281,7 @@ GameObject:
   - component: {fileID: 720016993}
   - component: {fileID: 720016992}
   - component: {fileID: 720016995}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12572,7 +12595,7 @@ GameObject:
   - component: {fileID: 734610074}
   - component: {fileID: 734610073}
   - component: {fileID: 734610072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12669,7 +12692,7 @@ GameObject:
   - component: {fileID: 740259576}
   - component: {fileID: 740259575}
   - component: {fileID: 740259574}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12760,7 +12783,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh212112
+  m_Name: pb_Mesh153054
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12930,7 +12953,7 @@ GameObject:
   - component: {fileID: 748295988}
   - component: {fileID: 748295987}
   - component: {fileID: 748295986}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13027,7 +13050,7 @@ GameObject:
   - component: {fileID: 758784452}
   - component: {fileID: 758784451}
   - component: {fileID: 758784450}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13125,7 +13148,7 @@ GameObject:
   - component: {fileID: 766917353}
   - component: {fileID: 766917352}
   - component: {fileID: 766917355}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13439,7 +13462,7 @@ GameObject:
   - component: {fileID: 770046847}
   - component: {fileID: 770046846}
   - component: {fileID: 770046845}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13536,7 +13559,7 @@ GameObject:
   - component: {fileID: 777187069}
   - component: {fileID: 777187068}
   - component: {fileID: 777187067}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13633,7 +13656,7 @@ GameObject:
   - component: {fileID: 780285062}
   - component: {fileID: 780285061}
   - component: {fileID: 780285060}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13830,6 +13853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanAttack: 1
   AttackCooldown: 0.08
+  attackCooldownNormal: 3
   collider: {fileID: 782628379}
   reloadText: {fileID: 871878123}
   audiosource: {fileID: 919132147955941301}
@@ -13866,8 +13890,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.14554009, y: 0.28750572, z: 0.053971946}
-  m_Center: {x: -0.047620457, y: 0.055052187, z: 0.0027935805}
+  m_Size: {x: 0.9149906, y: 0.7127996, z: 0.39142764}
+  m_Center: {x: -0.12375313, y: -0.15759476, z: -0.16593438}
 --- !u!1 &783412942
 GameObject:
   m_ObjectHideFlags: 0
@@ -13880,7 +13904,7 @@ GameObject:
   - component: {fileID: 783412946}
   - component: {fileID: 783412945}
   - component: {fileID: 783412944}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13977,7 +14001,7 @@ GameObject:
   - component: {fileID: 791856417}
   - component: {fileID: 791856416}
   - component: {fileID: 791856415}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14074,7 +14098,7 @@ GameObject:
   - component: {fileID: 794586341}
   - component: {fileID: 794586340}
   - component: {fileID: 794586339}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17326,7 +17350,7 @@ GameObject:
   - component: {fileID: 834233925}
   - component: {fileID: 834233924}
   - component: {fileID: 834233923}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17615,7 +17639,7 @@ GameObject:
   - component: {fileID: 860784173}
   - component: {fileID: 860784172}
   - component: {fileID: 860784171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17712,7 +17736,7 @@ GameObject:
   - component: {fileID: 861594795}
   - component: {fileID: 861594794}
   - component: {fileID: 861594793}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17809,7 +17833,7 @@ GameObject:
   - component: {fileID: 863763115}
   - component: {fileID: 863763114}
   - component: {fileID: 863763113}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17906,7 +17930,7 @@ GameObject:
   - component: {fileID: 868940091}
   - component: {fileID: 868940090}
   - component: {fileID: 868940089}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18335,7 +18359,7 @@ GameObject:
   - component: {fileID: 907541363}
   - component: {fileID: 907541362}
   - component: {fileID: 907541365}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18650,7 +18674,7 @@ GameObject:
   - component: {fileID: 913293548}
   - component: {fileID: 913293547}
   - component: {fileID: 913293550}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18964,7 +18988,7 @@ GameObject:
   - component: {fileID: 915006158}
   - component: {fileID: 915006157}
   - component: {fileID: 915006156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19061,7 +19085,7 @@ GameObject:
   - component: {fileID: 916620345}
   - component: {fileID: 916620344}
   - component: {fileID: 916620343}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19158,7 +19182,7 @@ GameObject:
   - component: {fileID: 930318237}
   - component: {fileID: 930318236}
   - component: {fileID: 930318235}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19256,7 +19280,7 @@ GameObject:
   - component: {fileID: 935731792}
   - component: {fileID: 935731791}
   - component: {fileID: 935731794}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19662,7 +19686,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211854
+  m_Name: pb_Mesh152796
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19930,7 +19954,7 @@ GameObject:
   - component: {fileID: 953254139}
   - component: {fileID: 953254138}
   - component: {fileID: 953254137}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20027,7 +20051,7 @@ GameObject:
   - component: {fileID: 955080661}
   - component: {fileID: 955080660}
   - component: {fileID: 955080659}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20123,7 +20147,7 @@ GameObject:
   - component: {fileID: 959759470}
   - component: {fileID: 959759469}
   - component: {fileID: 959759471}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20201,7 +20225,7 @@ GameObject:
   - component: {fileID: 962740890}
   - component: {fileID: 962740889}
   - component: {fileID: 962740888}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20496,7 +20520,7 @@ GameObject:
   - component: {fileID: 966929393}
   - component: {fileID: 966929392}
   - component: {fileID: 966929391}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20593,7 +20617,7 @@ GameObject:
   - component: {fileID: 972685973}
   - component: {fileID: 972685972}
   - component: {fileID: 972685971}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20690,7 +20714,7 @@ GameObject:
   - component: {fileID: 973161159}
   - component: {fileID: 973161158}
   - component: {fileID: 973161157}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20980,7 +21004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 982471236}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21063,7 +21087,7 @@ GameObject:
   - component: {fileID: 991505108}
   - component: {fileID: 991505107}
   - component: {fileID: 991505106}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21160,7 +21184,7 @@ GameObject:
   - component: {fileID: 994577894}
   - component: {fileID: 994577893}
   - component: {fileID: 994577892}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21257,7 +21281,7 @@ GameObject:
   - component: {fileID: 994713812}
   - component: {fileID: 994713811}
   - component: {fileID: 994713810}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21354,7 +21378,7 @@ GameObject:
   - component: {fileID: 1022117768}
   - component: {fileID: 1022117767}
   - component: {fileID: 1022117766}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21451,7 +21475,7 @@ GameObject:
   - component: {fileID: 1022260927}
   - component: {fileID: 1022260926}
   - component: {fileID: 1022260925}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21548,7 +21572,7 @@ GameObject:
   - component: {fileID: 1037530501}
   - component: {fileID: 1037530500}
   - component: {fileID: 1037530499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21645,7 +21669,7 @@ GameObject:
   - component: {fileID: 1041625494}
   - component: {fileID: 1041625493}
   - component: {fileID: 1041625492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21742,7 +21766,7 @@ GameObject:
   - component: {fileID: 1043166943}
   - component: {fileID: 1043166942}
   - component: {fileID: 1043166941}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21839,7 +21863,7 @@ GameObject:
   - component: {fileID: 1048221258}
   - component: {fileID: 1048221257}
   - component: {fileID: 1048221256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22028,7 +22052,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211028
+  m_Name: pb_Mesh151970
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22198,7 +22222,7 @@ GameObject:
   - component: {fileID: 1071235529}
   - component: {fileID: 1071235528}
   - component: {fileID: 1071235527}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22295,7 +22319,7 @@ GameObject:
   - component: {fileID: 1084650699}
   - component: {fileID: 1084650698}
   - component: {fileID: 1084650697}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22393,7 +22417,7 @@ GameObject:
   - component: {fileID: 1085463334}
   - component: {fileID: 1085463333}
   - component: {fileID: 1085463336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22707,7 +22731,7 @@ GameObject:
   - component: {fileID: 1092257706}
   - component: {fileID: 1092257705}
   - component: {fileID: 1092257704}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22804,7 +22828,7 @@ GameObject:
   - component: {fileID: 1106416434}
   - component: {fileID: 1106416433}
   - component: {fileID: 1106416432}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22901,7 +22925,7 @@ GameObject:
   - component: {fileID: 1113220324}
   - component: {fileID: 1113220323}
   - component: {fileID: 1113220322}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22998,7 +23022,7 @@ GameObject:
   - component: {fileID: 1117417871}
   - component: {fileID: 1117417870}
   - component: {fileID: 1117417869}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23089,7 +23113,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211082
+  m_Name: pb_Mesh152024
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23259,7 +23283,7 @@ GameObject:
   - component: {fileID: 1122778473}
   - component: {fileID: 1122778472}
   - component: {fileID: 1122778471}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23454,7 +23478,7 @@ GameObject:
   - component: {fileID: 1147458042}
   - component: {fileID: 1147458041}
   - component: {fileID: 1147458040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23551,7 +23575,7 @@ GameObject:
   - component: {fileID: 1159435989}
   - component: {fileID: 1159435988}
   - component: {fileID: 1159435987}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23746,7 +23770,7 @@ GameObject:
   - component: {fileID: 1167207329}
   - component: {fileID: 1167207328}
   - component: {fileID: 1167207327}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23844,7 +23868,7 @@ GameObject:
   - component: {fileID: 1171632191}
   - component: {fileID: 1171632190}
   - component: {fileID: 1171632193}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24158,7 +24182,7 @@ GameObject:
   - component: {fileID: 1173157121}
   - component: {fileID: 1173157120}
   - component: {fileID: 1173157119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24255,7 +24279,7 @@ GameObject:
   - component: {fileID: 1178624226}
   - component: {fileID: 1178624225}
   - component: {fileID: 1178624224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24450,7 +24474,7 @@ GameObject:
   - component: {fileID: 1207350678}
   - component: {fileID: 1207350677}
   - component: {fileID: 1207350676}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24547,7 +24571,7 @@ GameObject:
   - component: {fileID: 1209001181}
   - component: {fileID: 1209001180}
   - component: {fileID: 1209001179}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24644,7 +24668,7 @@ GameObject:
   - component: {fileID: 1211065002}
   - component: {fileID: 1211065001}
   - component: {fileID: 1211065000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24741,7 +24765,7 @@ GameObject:
   - component: {fileID: 1215218273}
   - component: {fileID: 1215218272}
   - component: {fileID: 1215218271}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24936,7 +24960,7 @@ GameObject:
   - component: {fileID: 1237342143}
   - component: {fileID: 1237342142}
   - component: {fileID: 1237342141}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25034,7 +25058,7 @@ GameObject:
   - component: {fileID: 1237795297}
   - component: {fileID: 1237795296}
   - component: {fileID: 1237795299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25348,7 +25372,7 @@ GameObject:
   - component: {fileID: 1244350696}
   - component: {fileID: 1244350695}
   - component: {fileID: 1244350694}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25442,7 +25466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1248574376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25497,7 +25521,7 @@ GameObject:
   - component: {fileID: 1265995436}
   - component: {fileID: 1265995435}
   - component: {fileID: 1265995434}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25595,7 +25619,7 @@ GameObject:
   - component: {fileID: 1276083441}
   - component: {fileID: 1276083440}
   - component: {fileID: 1276083443}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25909,7 +25933,7 @@ GameObject:
   - component: {fileID: 1298342673}
   - component: {fileID: 1298342672}
   - component: {fileID: 1298342671}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26006,7 +26030,7 @@ GameObject:
   - component: {fileID: 1298847409}
   - component: {fileID: 1298847408}
   - component: {fileID: 1298847407}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26238,7 +26262,7 @@ GameObject:
   - component: {fileID: 1326168579}
   - component: {fileID: 1326168578}
   - component: {fileID: 1326168577}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26433,7 +26457,7 @@ GameObject:
   - component: {fileID: 1344258231}
   - component: {fileID: 1344258230}
   - component: {fileID: 1344258229}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26530,7 +26554,7 @@ GameObject:
   - component: {fileID: 1353303918}
   - component: {fileID: 1353303917}
   - component: {fileID: 1353303916}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26624,7 +26648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1359010603}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26676,7 +26700,7 @@ GameObject:
   - component: {fileID: 1360532124}
   - component: {fileID: 1360532123}
   - component: {fileID: 1360532122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26774,7 +26798,7 @@ GameObject:
   - component: {fileID: 1361592952}
   - component: {fileID: 1361592951}
   - component: {fileID: 1361592954}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27088,7 +27112,7 @@ GameObject:
   - component: {fileID: 1362841115}
   - component: {fileID: 1362841114}
   - component: {fileID: 1362841113}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27185,7 +27209,7 @@ GameObject:
   - component: {fileID: 1366298039}
   - component: {fileID: 1366298038}
   - component: {fileID: 1366298037}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27282,7 +27306,7 @@ GameObject:
   - component: {fileID: 1406381012}
   - component: {fileID: 1406381011}
   - component: {fileID: 1406381010}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27373,7 +27397,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh210712
+  m_Name: pb_Mesh151654
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27543,7 +27567,7 @@ GameObject:
   - component: {fileID: 1430266750}
   - component: {fileID: 1430266749}
   - component: {fileID: 1430266748}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27640,7 +27664,7 @@ GameObject:
   - component: {fileID: 1453783784}
   - component: {fileID: 1453783783}
   - component: {fileID: 1453783782}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27737,7 +27761,7 @@ GameObject:
   - component: {fileID: 1459818029}
   - component: {fileID: 1459818028}
   - component: {fileID: 1459818027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27968,7 +27992,7 @@ GameObject:
   - component: {fileID: 1477068545}
   - component: {fileID: 1477068544}
   - component: {fileID: 1477068543}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28065,7 +28089,7 @@ GameObject:
   - component: {fileID: 1491175453}
   - component: {fileID: 1491175452}
   - component: {fileID: 1491175451}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28162,7 +28186,7 @@ GameObject:
   - component: {fileID: 1492546651}
   - component: {fileID: 1492546650}
   - component: {fileID: 1492546649}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28259,7 +28283,7 @@ GameObject:
   - component: {fileID: 1504645855}
   - component: {fileID: 1504645854}
   - component: {fileID: 1504645853}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28356,7 +28380,7 @@ GameObject:
   - component: {fileID: 1508873969}
   - component: {fileID: 1508873968}
   - component: {fileID: 1508873967}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28453,7 +28477,7 @@ GameObject:
   - component: {fileID: 1510109806}
   - component: {fileID: 1510109805}
   - component: {fileID: 1510109804}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28550,7 +28574,7 @@ GameObject:
   - component: {fileID: 1512090888}
   - component: {fileID: 1512090887}
   - component: {fileID: 1512090886}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28647,7 +28671,7 @@ GameObject:
   - component: {fileID: 1514887701}
   - component: {fileID: 1514887700}
   - component: {fileID: 1514887699}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28745,7 +28769,7 @@ GameObject:
   - component: {fileID: 1517259535}
   - component: {fileID: 1517259534}
   - component: {fileID: 1517259537}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29059,7 +29083,7 @@ GameObject:
   - component: {fileID: 1523288194}
   - component: {fileID: 1523288193}
   - component: {fileID: 1523288192}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29156,7 +29180,7 @@ GameObject:
   - component: {fileID: 1529494898}
   - component: {fileID: 1529494897}
   - component: {fileID: 1529494896}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29253,7 +29277,7 @@ GameObject:
   - component: {fileID: 1532582478}
   - component: {fileID: 1532582477}
   - component: {fileID: 1532582476}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29381,7 +29405,7 @@ GameObject:
   - component: {fileID: 1546064604}
   - component: {fileID: 1546064603}
   - component: {fileID: 1546064602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29478,7 +29502,7 @@ GameObject:
   - component: {fileID: 1546184037}
   - component: {fileID: 1546184036}
   - component: {fileID: 1546184035}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29575,7 +29599,7 @@ GameObject:
   - component: {fileID: 1553331649}
   - component: {fileID: 1553331648}
   - component: {fileID: 1553331647}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29849,7 +29873,7 @@ GameObject:
   - component: {fileID: 1583750856}
   - component: {fileID: 1583750855}
   - component: {fileID: 1583750854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29946,7 +29970,7 @@ GameObject:
   - component: {fileID: 1588066269}
   - component: {fileID: 1588066268}
   - component: {fileID: 1588066267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30043,7 +30067,7 @@ GameObject:
   - component: {fileID: 1588688116}
   - component: {fileID: 1588688115}
   - component: {fileID: 1588688114}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30140,7 +30164,7 @@ GameObject:
   - component: {fileID: 1593276451}
   - component: {fileID: 1593276450}
   - component: {fileID: 1593276449}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30237,7 +30261,7 @@ GameObject:
   - component: {fileID: 1593726803}
   - component: {fileID: 1593726802}
   - component: {fileID: 1593726801}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30334,7 +30358,7 @@ GameObject:
   - component: {fileID: 1595192418}
   - component: {fileID: 1595192417}
   - component: {fileID: 1595192416}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30431,7 +30455,7 @@ GameObject:
   - component: {fileID: 1603436382}
   - component: {fileID: 1603436381}
   - component: {fileID: 1603436380}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30528,7 +30552,7 @@ GameObject:
   - component: {fileID: 1628405243}
   - component: {fileID: 1628405242}
   - component: {fileID: 1628405241}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30625,7 +30649,7 @@ GameObject:
   - component: {fileID: 1636507908}
   - component: {fileID: 1636507907}
   - component: {fileID: 1636507906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30722,7 +30746,7 @@ GameObject:
   - component: {fileID: 1651569533}
   - component: {fileID: 1651569532}
   - component: {fileID: 1651569531}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30819,7 +30843,7 @@ GameObject:
   - component: {fileID: 1661677488}
   - component: {fileID: 1661677487}
   - component: {fileID: 1661677486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30917,7 +30941,7 @@ GameObject:
   - component: {fileID: 1665429686}
   - component: {fileID: 1665429685}
   - component: {fileID: 1665429688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31228,7 +31252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1669309716}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31297,7 +31321,7 @@ GameObject:
   - component: {fileID: 1671581427}
   - component: {fileID: 1671581426}
   - component: {fileID: 1671581425}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31394,7 +31418,7 @@ GameObject:
   - component: {fileID: 1674636810}
   - component: {fileID: 1674636809}
   - component: {fileID: 1674636808}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31491,7 +31515,7 @@ GameObject:
   - component: {fileID: 1676624141}
   - component: {fileID: 1676624140}
   - component: {fileID: 1676624139}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31613,7 +31637,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh210466
+  m_Name: pb_Mesh151408
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -31783,7 +31807,7 @@ GameObject:
   - component: {fileID: 1688696585}
   - component: {fileID: 1688696584}
   - component: {fileID: 1688696583}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31880,7 +31904,7 @@ GameObject:
   - component: {fileID: 1690502518}
   - component: {fileID: 1690502517}
   - component: {fileID: 1690502516}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31977,7 +32001,7 @@ GameObject:
   - component: {fileID: 1696320663}
   - component: {fileID: 1696320662}
   - component: {fileID: 1696320661}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32208,7 +32232,7 @@ GameObject:
   - component: {fileID: 1701417035}
   - component: {fileID: 1701417034}
   - component: {fileID: 1701417033}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32305,7 +32329,7 @@ GameObject:
   - component: {fileID: 1704888439}
   - component: {fileID: 1704888438}
   - component: {fileID: 1704888437}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32402,7 +32426,7 @@ GameObject:
   - component: {fileID: 1708072612}
   - component: {fileID: 1708072611}
   - component: {fileID: 1708072610}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32499,7 +32523,7 @@ GameObject:
   - component: {fileID: 1712601479}
   - component: {fileID: 1712601478}
   - component: {fileID: 1712601477}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32596,7 +32620,7 @@ GameObject:
   - component: {fileID: 1726318316}
   - component: {fileID: 1726318315}
   - component: {fileID: 1726318314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32693,7 +32717,7 @@ GameObject:
   - component: {fileID: 1743969746}
   - component: {fileID: 1743969745}
   - component: {fileID: 1743969744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32790,7 +32814,7 @@ GameObject:
   - component: {fileID: 1753094174}
   - component: {fileID: 1753094173}
   - component: {fileID: 1753094172}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32887,7 +32911,7 @@ GameObject:
   - component: {fileID: 1754457339}
   - component: {fileID: 1754457338}
   - component: {fileID: 1754457337}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32984,7 +33008,7 @@ GameObject:
   - component: {fileID: 1760476890}
   - component: {fileID: 1760476889}
   - component: {fileID: 1760476888}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33081,7 +33105,7 @@ GameObject:
   - component: {fileID: 1765659735}
   - component: {fileID: 1765659734}
   - component: {fileID: 1765659733}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33178,7 +33202,7 @@ GameObject:
   - component: {fileID: 1766300031}
   - component: {fileID: 1766300030}
   - component: {fileID: 1766300029}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33275,7 +33299,7 @@ GameObject:
   - component: {fileID: 1774798223}
   - component: {fileID: 1774798222}
   - component: {fileID: 1774798221}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33530,7 +33554,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211818
+  m_Name: pb_Mesh152760
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33700,7 +33724,7 @@ GameObject:
   - component: {fileID: 1803837458}
   - component: {fileID: 1803837457}
   - component: {fileID: 1803837456}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33797,7 +33821,7 @@ GameObject:
   - component: {fileID: 1805187039}
   - component: {fileID: 1805187038}
   - component: {fileID: 1805187037}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33894,7 +33918,7 @@ GameObject:
   - component: {fileID: 1812964225}
   - component: {fileID: 1812964224}
   - component: {fileID: 1812964223}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Equipment Room (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34044,7 +34068,7 @@ GameObject:
   - component: {fileID: 1863063420}
   - component: {fileID: 1863063419}
   - component: {fileID: 1863063418}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34141,7 +34165,7 @@ GameObject:
   - component: {fileID: 1877717561}
   - component: {fileID: 1877717560}
   - component: {fileID: 1877717559}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34232,7 +34256,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211948
+  m_Name: pb_Mesh152890
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34402,7 +34426,7 @@ GameObject:
   - component: {fileID: 1887829260}
   - component: {fileID: 1887829259}
   - component: {fileID: 1887829258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34499,7 +34523,7 @@ GameObject:
   - component: {fileID: 1896437953}
   - component: {fileID: 1896437952}
   - component: {fileID: 1896437951}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34596,7 +34620,7 @@ GameObject:
   - component: {fileID: 1904552970}
   - component: {fileID: 1904552969}
   - component: {fileID: 1904552968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34693,7 +34717,7 @@ GameObject:
   - component: {fileID: 1933815228}
   - component: {fileID: 1933815227}
   - component: {fileID: 1933815226}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34790,7 +34814,7 @@ GameObject:
   - component: {fileID: 1948310818}
   - component: {fileID: 1948310817}
   - component: {fileID: 1948310816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34887,7 +34911,7 @@ GameObject:
   - component: {fileID: 1972261433}
   - component: {fileID: 1972261432}
   - component: {fileID: 1972261431}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34984,7 +35008,7 @@ GameObject:
   - component: {fileID: 1980459698}
   - component: {fileID: 1980459697}
   - component: {fileID: 1980459696}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35081,7 +35105,7 @@ GameObject:
   - component: {fileID: 1987634664}
   - component: {fileID: 1987634663}
   - component: {fileID: 1987634662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35178,7 +35202,7 @@ GameObject:
   - component: {fileID: 1988941539}
   - component: {fileID: 1988941538}
   - component: {fileID: 1988941537}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35275,7 +35299,7 @@ GameObject:
   - component: {fileID: 2002408797}
   - component: {fileID: 2002408796}
   - component: {fileID: 2002408795}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 5 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35372,7 +35396,7 @@ GameObject:
   - component: {fileID: 2008652959}
   - component: {fileID: 2008652958}
   - component: {fileID: 2008652957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35466,7 +35490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2040485370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35548,7 +35572,7 @@ GameObject:
   - component: {fileID: 2041892392}
   - component: {fileID: 2041892391}
   - component: {fileID: 2041892390}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35645,7 +35669,7 @@ GameObject:
   - component: {fileID: 2063045897}
   - component: {fileID: 2063045896}
   - component: {fileID: 2063045895}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35742,7 +35766,7 @@ GameObject:
   - component: {fileID: 2075049475}
   - component: {fileID: 2075049474}
   - component: {fileID: 2075049473}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35839,7 +35863,7 @@ GameObject:
   - component: {fileID: 2091207362}
   - component: {fileID: 2091207361}
   - component: {fileID: 2091207360}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 3 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35936,7 +35960,7 @@ GameObject:
   - component: {fileID: 2093079865}
   - component: {fileID: 2093079864}
   - component: {fileID: 2093079863}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prison wall start (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36083,7 +36107,7 @@ GameObject:
   - component: {fileID: 2109484671}
   - component: {fileID: 2109484670}
   - component: {fileID: 2109484669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36180,7 +36204,7 @@ GameObject:
   - component: {fileID: 2117948274}
   - component: {fileID: 2117948273}
   - component: {fileID: 2117948272}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 2 Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36405,7 +36429,7 @@ GameObject:
   - component: {fileID: 2121362874}
   - component: {fileID: 2121362873}
   - component: {fileID: 2121362872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hallway 4 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36503,7 +36527,7 @@ GameObject:
   - component: {fileID: 2123934727}
   - component: {fileID: 2123934726}
   - component: {fileID: 2123934729}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36817,7 +36841,7 @@ GameObject:
   - component: {fileID: 2143057149}
   - component: {fileID: 2143057148}
   - component: {fileID: 2143057147}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flesh Room (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36914,7 +36938,7 @@ GameObject:
   - component: {fileID: 2145286020}
   - component: {fileID: 2145286019}
   - component: {fileID: 2145286018}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lab (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
