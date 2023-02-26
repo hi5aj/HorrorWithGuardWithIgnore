@@ -28,6 +28,9 @@ public class CoreAI : MonoBehaviour
     public bool fleeFromPlayer;
     public bool isStunned;
 
+    public float stunTime = 5;
+    public float angryTime = 10;
+
     [SerializeField]
     [Range(1, 7)] private int wait_time;
 
@@ -72,7 +75,7 @@ public class CoreAI : MonoBehaviour
         {
             case AIState.Passive:
                 enemyColor.material.color = Color.yellow;
-                if (randomWander == true)
+                if (randomWander == true && isStunned == false)
                 {
                     Wander();
                     if (canSeePlayer == true)
@@ -82,7 +85,7 @@ public class CoreAI : MonoBehaviour
                 }
                 else
                 {
-                    if (navMeshAgent.remainingDistance < 2f && canSeePlayer == false)
+                    if (navMeshAgent.remainingDistance < 2f && canSeePlayer == false && isStunned == false)
                     {
                         GotoNextPoint();
                     }
@@ -94,16 +97,30 @@ public class CoreAI : MonoBehaviour
                 break;
 
             case AIState.Hostile:
-                ChasePlayer();
-                navMeshAgent.speed = 10;
-                if (canSeePlayer == false)
+                if (isStunned == false)
                 {
-                    FieldOfViewCheck();
+                    ChasePlayer();
+                    navMeshAgent.speed = 5;
+                    if (canSeePlayer == false)
+                    {
+                        FieldOfViewCheck();
+                    }
                 }
                 break;
 
-            //case AIState.Stunned:
-               // isStunned = true;
+            case AIState.Stunned:
+                navMeshAgent.speed = 0;
+                canSeePlayer = false;
+                isChasingPlayer = false;
+                StartCoroutine(StunTimer());
+                _AIState = AIState.Passive;
+                break;
+
+            case AIState.Angry:
+                StartCoroutine(AngryTimer());
+                ChasePlayer();
+                break; 
+
 
         }
         ProximityCheck();
@@ -140,22 +157,28 @@ public class CoreAI : MonoBehaviour
 
     private void Wander()
     {
-        if (navMeshAgent != null && navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && IAmWaiting == false)
+        if (isStunned == false)
         {
-            navMeshAgent.SetDestination(RandomNavMeshLocation());
-            IAmWaiting = true;
-            StartCoroutine(RandomWaitTimer());
+            if (navMeshAgent != null && navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && IAmWaiting == false)
+            {
+                navMeshAgent.SetDestination(RandomNavMeshLocation());
+                IAmWaiting = true;
+                StartCoroutine(RandomWaitTimer());
+            }
         }
     }
     
     void GotoNextPoint()
     {
-        if (waypoints.Length == 0)
-            return;
-        navMeshAgent.destination = waypoints[nextWayPoint].position;
-        nextWayPoint = (nextWayPoint + 1) % waypoints.Length;
-        IAmWaiting = true;
-        StartCoroutine(RandomWaitTimer());
+        if (isStunned == false)
+        {
+            if (waypoints.Length == 0)
+                return;
+            navMeshAgent.destination = waypoints[nextWayPoint].position;
+            nextWayPoint = (nextWayPoint + 1) % waypoints.Length;
+            IAmWaiting = true;
+            StartCoroutine(RandomWaitTimer());
+        }
     }
 
     private void FieldOfViewCheck()
@@ -167,7 +190,7 @@ public class CoreAI : MonoBehaviour
             Transform target = rangeChecks[0].transform;
             Vector3 directionToTarget = (target.position - transform.position).normalized;
 
-            if (Vector3.Angle(transform.forward, directionToTarget) < FoVAngle / 2)
+            if (Vector3.Angle(transform.forward, directionToTarget) < FoVAngle / 2 && isStunned == false)
             {
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
@@ -191,7 +214,7 @@ public class CoreAI : MonoBehaviour
             canSeePlayer = false;
             timeSinceSeenPlayer += Time.deltaTime;
 
-            if (timeSinceSeenPlayer >= 2f)
+            if (timeSinceSeenPlayer >= 2f && isStunned == false)
             {
                 canSeePlayer = false;
                 isChasingPlayer = false;
@@ -257,8 +280,11 @@ public class CoreAI : MonoBehaviour
 
     private void ChasePlayer()
     {
-        isChasingPlayer = true;
-        navMeshAgent.destination = player.transform.position;
+        if (isStunned == false)
+        {
+            isChasingPlayer = true;
+            navMeshAgent.destination = player.transform.position;
+        }
         if (canSeePlayer == true)
         {
             enemyColor.material.color = Color.red;
@@ -275,7 +301,20 @@ public class CoreAI : MonoBehaviour
         {
             Debug.Log("Trying to stun enemy");
             isStunned = true;
-            navMeshAgent.speed = 0;
+            _AIState = AIState.Stunned;
         }
+    }
+
+    IEnumerator StunTimer()
+    {
+        yield return new WaitForSeconds(stunTime);
+        isStunned = false;
+        navMeshAgent.speed = 10;
+    }
+
+    IEnumerator AngryTimer()
+    {
+        navMeshAgent.speed = 20;
+        yield return new WaitForSeconds(angryTime);
     }
 }

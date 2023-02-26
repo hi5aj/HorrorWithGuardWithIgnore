@@ -6,7 +6,7 @@ public class WeaponController : MonoBehaviour
 {
     //public GameObject Hatchet;
     public bool CanAttack;
-    public float AttackCooldown = 0.01f;
+    public float AttackCooldown = 0.05f;
     public float attackCooldownNormal = 3f;
     //public AudioClip hatchetAttackSound;
     Animator anim;
