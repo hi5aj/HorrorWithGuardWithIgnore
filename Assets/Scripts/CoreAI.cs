@@ -13,7 +13,6 @@ public class CoreAI : MonoBehaviour
         Angry
     }
 
-    [SerializeField]
     private AIState _AIState;
 
     public LayerMask targetMask;
@@ -62,7 +61,6 @@ public class CoreAI : MonoBehaviour
         enemyColor = GetComponent<Renderer>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player");
-        StartCoroutine(CheckForPlayer());
     }
 
     // Update is called once per frame
@@ -86,7 +84,7 @@ public class CoreAI : MonoBehaviour
                     {
                         GotoNextPoint();
                     }
-                    if (canSeePlayer == true && isStunned == false)
+                    if (canSeePlayer == true)
                     {
                         _AIState = AIState.Hostile;
                     }
@@ -101,10 +99,6 @@ public class CoreAI : MonoBehaviour
                     FieldOfViewCheck();
                 }
                 break;
-
-            //case AIState.Stunned:
-               // isStunned = true;
-
         }
         ProximityCheck();
     }
@@ -268,14 +262,5 @@ public class CoreAI : MonoBehaviour
             enemyColor.material.color = Color.magenta;
         }
         FieldOfViewCheck();
-    }
-    private void OnTriggerEnter(Collider collision)
-    {
-        if (collision.tag == "Hatchet")
-        {
-            Debug.Log("Trying to stun enemy");
-            isStunned = true;
-            navMeshAgent.speed = 0;
-        }
     }
 }
