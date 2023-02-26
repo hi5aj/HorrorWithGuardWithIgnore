@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 696c6375d787fb946b53a72170664ca9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Real Horror
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 85ea44e78558bac40813ead6329c182e, type: 3}
+  - {fileID: 12800000, guid: a084fc5df339f3249ab5a394cf39d437, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
