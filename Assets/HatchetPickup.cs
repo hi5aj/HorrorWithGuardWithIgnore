@@ -5,24 +5,20 @@ using UnityEngine;
 public class HatchetPickup : MonoBehaviour
 {
 
-    public GameObject weaponPickup;
+    public static bool armed = false;
     public GameObject weaponHold;
-    public BoxCollider coll;
-    public GameObject pc;
+    public GameObject weaponPickup;
 
-
-
-
-    public float pickUpRange;
-
-    private void PickUp()
+    void OnTriggerEnter(Collider other)
     {
-
-        Vector3 distanceToPlayer = player.postition - transform.position;
-        if(Input.GetKeyDown("E") && distanceToPlayer.magnitude <= pickUpRange)
+        if(armed == false)
         {
-            Destroy.GameObject("weaponPickup");
-            SetActive.GameObject("WeaponHold");
+        PlayerMovement controller = other.GetComponent<PlayerMovement>();
+        weaponHold.SetActive(true);
+        weaponPickup.SetActive(false);
+        armed = true;
         }
+
+
     }
 }
