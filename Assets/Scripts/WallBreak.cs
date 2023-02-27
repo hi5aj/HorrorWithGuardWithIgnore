@@ -17,7 +17,7 @@ public class WallBreak : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnColliderEnter(Collider other)
     {
         if (other.tag == "Hatchet")
         {

@@ -17,10 +17,11 @@ public class ExitScript : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
+            Debug.Log("Player wins");
             SceneManager.LoadScene("WinScreen");
         }
     }

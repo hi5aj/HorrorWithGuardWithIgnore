@@ -11,7 +11,7 @@ public class HatchetPickup : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(armed == false)
+        if(armed == false && other.tag == "Player")
         {
         PlayerMovement controller = other.GetComponent<PlayerMovement>();
         weaponHold.SetActive(true);

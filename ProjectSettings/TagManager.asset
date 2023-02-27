@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Hatchet
   - Wall
+  - Enemy
+  - Breakable
   layers:
   - Default
   - TransparentFX

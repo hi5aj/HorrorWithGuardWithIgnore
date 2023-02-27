@@ -83,7 +83,6 @@ public class CoreAI : MonoBehaviour
         switch (_AIState)
         {
             case AIState.Passive:
-                enemyColor.material.color = Color.yellow;
                 if (randomWander == true && isStunned == false)
                 {
                     Wander();
@@ -299,14 +298,6 @@ public class CoreAI : MonoBehaviour
         {
             isChasingPlayer = true;
             navMeshAgent.destination = player.transform.position;
-        }
-        if (canSeePlayer == true)
-        {
-            enemyColor.material.color = Color.red;
-        }
-        else
-        {
-            enemyColor.material.color = Color.magenta;
         }
         FieldOfViewCheck();
     }

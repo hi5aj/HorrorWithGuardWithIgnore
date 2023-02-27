@@ -27,6 +27,7 @@ public class WeaponController : MonoBehaviour
         anim = GetComponent<Animator>();
         //ac = GetComponent<AudioSource>();
         collider.enabled = false;
+        ai = GameObject.Find("Enemy").GetComponent<CoreAI>();
     }
 
     // Update is called once per frame
@@ -47,10 +48,10 @@ public class WeaponController : MonoBehaviour
             {
                 StartCoroutine(Reload());
             }
-            if (Input.GetMouseButton(1))
+            /*if (Input.GetMouseButton(1))
             {
                 StartCoroutine(ReturnToIdle());
-            }
+            }*/
         }
         /*if (CanAttack == false)
         {
