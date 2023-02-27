@@ -779,7 +779,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: RESUME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: db92a4b0d53c41347b6c8a9b9eb5f922, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3167,7 +3167,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: MENU
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: db92a4b0d53c41347b6c8a9b9eb5f922, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8393,6 +8393,7 @@ MonoBehaviour:
   alwaysMoving: 0
   fleeFromPlayer: 0
   isStunned: 0
+  isAngry: 0
   stunTime: 5
   angryTime: 10
   wait_time: 1
@@ -8405,6 +8406,11 @@ MonoBehaviour:
   waypoints: []
   player: {fileID: 0}
   enemyColor: {fileID: 0}
+  anim: {fileID: 0}
+  audioSource: {fileID: 0}
+  breathing: {fileID: 0}
+  scream: {fileID: 0}
+  footsteps: {fileID: 0}
 --- !u!1 &476940449
 GameObject:
   m_ObjectHideFlags: 0
@@ -15009,6 +15015,7 @@ MonoBehaviour:
   audiosource: {fileID: 919132147955941301}
   popSound: {fileID: 8300000, guid: 793e4cb1e58a0b7418bb6d5317a493a8, type: 3}
   reloadSound: {fileID: 8300000, guid: bc77110d2dcc7f347bafbda0d5c0f1cd, type: 3}
+  swingSound: {fileID: 0}
 --- !u!95 &782628378
 Animator:
   serializedVersion: 5
@@ -21588,6 +21595,9 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 128
+  audioSource: {fileID: 0}
+  footstepsNormal: {fileID: 0}
+  footstepsFlesh: {fileID: 0}
 --- !u!1 &962740886
 GameObject:
   m_ObjectHideFlags: 0
@@ -28220,7 +28230,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUIT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: db92a4b0d53c41347b6c8a9b9eb5f922, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
