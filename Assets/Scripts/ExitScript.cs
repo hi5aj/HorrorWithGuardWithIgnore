@@ -21,7 +21,7 @@ public class ExitScript : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene(WinScreen);
+            SceneManager.LoadScene("WinScreen");
         }
     }
 }
