@@ -17,6 +17,7 @@ public class WeaponController : MonoBehaviour
     public AudioClip popSound;
     public AudioClip reloadSound;
     public AudioClip swingSound;
+    public AudioClip breakSound;
     CoreAI ai;
 
     // Start is called before the first frame update
@@ -115,6 +116,7 @@ public class WeaponController : MonoBehaviour
         if (other.tag == "Breakable")
         {
             Debug.Log("Breaking object");
+            audiosource.PlayOneShot(breakSound);
             ai._AIState = CoreAI.AIState.Angry;
             Destroy(other.gameObject);
         }

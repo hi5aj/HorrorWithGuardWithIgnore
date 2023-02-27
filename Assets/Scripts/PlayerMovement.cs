@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -58,6 +59,9 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             Debug.Log("Player is dead");
+            SceneManager.LoadScene("LoseScreen");
         }
     }
+
+    
 }
